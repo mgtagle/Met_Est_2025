@@ -10,7 +10,7 @@ Repositorio del curso de Métodos Estadísticos Agosto 2025 del programa de Inge
   + Crear cuenta en Github "mgtagle"
   + Los maestros son muy amables
 
-07/08/2025: Sincronizar Github con mi projecto
+07/08/2025: Sincronizar Github con mi proyecto
   + Crear versión control
   + Bases para un uso eficiente en R
   + Modificación de readme
