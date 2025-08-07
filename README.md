@@ -5,7 +5,7 @@ Repositorio del curso de Métodos Estadísticos Agosto 2025 del programa de Inge
 
 ## Contenido
 
-06/08/20205: Inicio de curso de métodos estadísticos.
+06/08/2025: Inicio de curso de métodos estadísticos.
   + Preparar mi área de trabajo
   + Crear cuenta en Github "mgtagle"
   + Los maestros son muy amables
