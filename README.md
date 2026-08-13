@@ -16,4 +16,6 @@ Repositorio del curso de Métodos Estadísticos Agosto 2026.
   + Activar _credenciales de github_ para sincronizar repositorio
   + Primera sincronización exitosa.
   + Crear :file_folder: carpetas para organizar mi información.
+  + :fire:
+
 ---
