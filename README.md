@@ -6,7 +6,7 @@
 Repositorio del curso de Métodos Estadísticos Agosto 2026.
 ---
 
-## Contenido del semestre
+## Contenido del semestre :calendar:
 
 :dart: **Semana 2: Inicio de curso de métodos estadísticos**
   + Preparar mi área de trabajo.
@@ -15,5 +15,5 @@ Repositorio del curso de Métodos Estadísticos Agosto 2026.
   + Modificar el archivo _README_.
   + Activar _credenciales de github_ para sincronizar repositorio
   + Primera sincronización exitosa.
-  + Crear :file folder: carpetas para organizar mi información.
+  + Crear :file_folder: carpetas para organizar mi información.
 ---
