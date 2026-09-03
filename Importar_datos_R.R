@@ -19,6 +19,41 @@ Exp$Tratamiento
 
 boxplot(Exp$IE ~ Exp$Tratamiento,
         xlab = "Factor = Fertilizante",
-        ylab = "Índice (IE)",
+        ylab = "Índice IE",
         col = "lightblue",
         main = "Unidad experimental")
+
+# Conocer la varianza de cada grupo
+
+df_ctrl <- subset(Exp, Tratamiento == "Ctrl")
+df_fert <- subset(Exp, Tratamiento != "Ctrl")
+df_fert <- subset(Exp, Tratamiento == "Fert")
+
+var(df_ctrl$IE)
+var(df_fert$IE)
+
+mean(df_ctrl$IE)
+mean(df_fert$IE)
+
+# La varianza del grupo fertilizado es 3 veces mayor que la 
+# varianza del grupo control
+# Pregunta 
+
+# ¿Provienen de una distribición normal ambos grupos?
+shapiro.test(df_ctrl$IE)
+# Grupo ctrl proviene de una distribución normal
+shapiro.test(df_fert$IE)
+# Grupo fert sigue una distribución normal
+
+# ¿Serán las varainzas iguales o diferentes estadísticamente?
+
+var.test(df_ctrl$IE, df_fert$IE)
+# Las varianzas de ambos grupos son iguales}
+
+# Existen diferencias entres los tratamientos
+
+t.test(df_ctrl$IE, df_fert$IE, var.equal = TRUE)
+
+# Si la pregunta es que el Fert es mayor que Ctrl
+t.test(df_fert$IE, df_ctrl$IE, var.equal = T, 
+       alternative = "greater")
