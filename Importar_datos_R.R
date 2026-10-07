@@ -57,3 +57,11 @@ t.test(df_ctrl$IE, df_fert$IE, var.equal = TRUE)
 # Si la pregunta es que el Fert es mayor que Ctrl
 t.test(df_fert$IE, df_ctrl$IE, var.equal = T, 
        alternative = "greater")
+
+
+# Si la pregunta es que el Ctrl es menor que Fert
+t.test(df_ctrl$IE, df_fert$IE, var.equal = T, 
+       alternative = "less")
+
+
+# "two.sided", "greater", "less"
